@@ -1,0 +1,17 @@
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Blog</title>
+        <link rel="stylesheet" href="{% static 'css/semantic.css' %}">
+    </head>
+    <body>
+        <h1 class="ui header">{{title}}</h1>
+        <h2 class="ui header">github地址：<a href="{{github}}">{{github}}</a></h2>
+        {% for student in students %}
+            姓名：{{ student.name }}
+            年龄：{{ student.age }}
+            <hr>
+        {% endfor %}
+    </body>
+</html>
