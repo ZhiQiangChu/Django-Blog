@@ -1,4 +1,4 @@
-## django_learning<br>
+## Django-Blog<br>
 ##### 背景：Django框架<br>
 ##### 内容：学习Django的基础操作及与sqlite的交互等<br>
 ##### 准备：安装Django（可查看公众号查看Django框架安装及操作教程）<br>
